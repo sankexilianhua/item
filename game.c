@@ -71,9 +71,25 @@ void playermove(char board[ROW][COL], int row, int col)
 	while (1)
 	{
 		scanf("%d%d", &i, &j);
-		if (i >= 0 && i < 5 && j >= 0 && j <5 && board[i][j] == ' ')
+		if (i >= 0 && i < ROW && j >= 0 && j <COL && board[i][j] == ' ')
 		{
 			board[i][j] = '*';
+			break;
+		}
+		else
+			printf("输入有误，请重新输入。");
+	}
+}
+void player2move(char board[ROW][COL], int row, int col)
+{
+	int i, j;
+	printf("请根据图示输入要走的坐标：");
+	while (1)
+	{
+		scanf("%d%d", &i, &j);
+		if (i >= 0 && i < ROW && j >= 0 && j <COL && board[i][j] == ' ')
+		{
+			board[i][j] = '#';
 			break;
 		}
 		else
