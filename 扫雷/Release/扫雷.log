@@ -1,0 +1,20 @@
+﻿生成启动时间为 2022/9/7 21:16:27。
+     1>项目“C:\代码仓库\小项目\扫雷\扫雷\扫雷.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt game.c test.c
+         game.c
+         test.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\扫雷.res" "扫雷.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\代码仓库\小项目\扫雷\Release\扫雷.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\代码仓库\小项目\扫雷\Release\扫雷.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\代码仓库\小项目\扫雷\Release\扫雷.lib" /MACHINE:X86 /SAFESEH "Release\扫雷.res"
+         Release\game.obj
+         Release\test.obj
+         正在生成代码
+         已完成代码的生成
+         扫雷.vcxproj -> C:\代码仓库\小项目\扫雷\Release\扫雷.exe
+     1>已完成生成项目“C:\代码仓库\小项目\扫雷\扫雷\扫雷.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.29
