@@ -3,6 +3,10 @@
 #include<stdlib.h>
 #include<math.h>
 #include<string.h>
+#include<stdbool.h>
+#include<conio.h>
+
+
 #define ROW 10
 #define COL 10
 void Initialboard(char board[ROW][COL], int row, int col);
